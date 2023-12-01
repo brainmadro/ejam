@@ -1,0 +1,79 @@
+@media screen and (max-width: 919px) {
+	.product_basic {
+		display: none;
+	}
+
+	.main--container {
+		margin: 0 2.2em;
+	}
+
+	.product--container {
+		background-color: inherit;
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+	}
+
+	[class^="progress_step"] {
+		flex-direction: column;
+		gap: .3em;
+	}
+
+}
+
+@media screen and (max-width: 710px) {
+	.banner--container {
+		text-align: center;
+	}
+
+	.brands_header {
+		margin-bottom: 4em;
+	}
+
+	.header--container {
+		display: grid;
+		font-size: 12pt;
+		grid-template-columns: repeat(4, 90vw);
+		overflow: hidden;
+	}
+
+	.feature_tag {
+		display: flex;
+		justify-content: center;
+	}
+
+	.footer--container {
+		align-items: center;
+		flex-direction: column;
+		gap: 1.2em;
+	}
+	
+	.payment_methods {
+		grid-column: span 2;
+		padding: 0.6em;
+	}
+
+	[class^="progress_step"] {
+		text-align: center;
+	}
+
+	.quick_actions {
+		font-size: 1.4em;
+		flex-wrap: wrap;
+		text-align: center;
+	}
+
+	.quick_actions > * {
+		border: none;
+	}
+
+	.quick_actions > span {
+		border-right: 1px solid #CFCFCF;
+		flex: 1;
+	}
+
+	.scroll_controls-header {
+		display: block;
+	}
+
+}

@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Manrope Variable', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -13,6 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -23,16 +28,20 @@ a:hover {
 }
 
 body {
-  margin: 0;
+  color: #4D5254;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  height: 100vh;
+  margin: 0;
+}
+
+h1, h3 {
+  text-transform: capitalize;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 36pt;  
+  margin: 0;
+  padding: 0;
 }
 
 button {
@@ -65,4 +74,13 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+header, footer {
+  background-color: #252F3D;
+  color: #FFF;
+}
+
+img {
+  width: 100%;
 }
